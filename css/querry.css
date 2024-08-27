@@ -3,15 +3,18 @@
     font-size: 8px;
   }
 
-  .main h1 {
+  .main h1,
+  .index-main h1 {
     font-size: 3rem;
   }
 
-  .container h2 {
+  .container h2,
+  .index-main h2 {
     font-size: 2.5rem;
   }
 
-  .description h3 {
+  .description h3,
+  .index-main h3 {
     font-size: 2rem;
   }
   .description p {
