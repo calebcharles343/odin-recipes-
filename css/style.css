@@ -1,0 +1,129 @@
+/* /////////////////////// */
+/* GANERAL RESET */
+/* /////////////////////// */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.5;
+  background-color: #fff4e6;
+  color: #333;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+/* /////////////////////// */
+/* ASSIGNMENT TEMPLATE */
+/* /////////////////////// */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #dc3340;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.nav-list a:link,
+.nav-list a:visited {
+  display: inline-block;
+  text-decoration: none;
+
+  font-weight: 600;
+  font-size: 1.4rem;
+  transition: all 0.5s;
+}
+
+.nav-link.active {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  color: #dc3340;
+}
+
+/* /////////////////// */
+/* PAGES CSS */
+/* /////////////////// */
+.index-main,
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 722px;
+}
+
+.index-main P {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.logo {
+  height: 400px;
+  width: 400px;
+}
+
+.main {
+  padding: 20px;
+  min-height: 60vh;
+  margin-bottom: 40px;
+}
+
+.container {
+  max-width: 800px;
+
+  padding: 20px;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+.container h2,
+.container img {
+  margin-bottom: 10px;
+}
+
+.description {
+  max-width: 600px;
+}
+
+footer {
+  background-color: #dc3340;
+  color: #fff;
+  padding: 10px;
+
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
